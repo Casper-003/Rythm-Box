@@ -70,6 +70,10 @@ Rythm-Box/
 
 ---
 
+## 截图
+![界面](https://raw.githubusercontent.com/Casper-003/Rythm-Box/refs/heads/main/img/interface.png)
+
+---
 ## 关于作者
 * **GitHub**: [Casper-003](https://github.com/Casper-003)
 * **Email**: casper-003@outlook.com
