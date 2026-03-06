@@ -1,0 +1,4 @@
+librosa
+flask
+mutagen
+numpy
