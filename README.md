@@ -1,6 +1,6 @@
-# Rythm-Box (Experimental Prototype)
+# Rythm-Box
 
-一个基于 **Unity** 和 **Python** 开发的实验性音乐游戏原型。本项目尝试利用音频处理算法实现谱面的自动生成与同步。
+一个基于 **Unity** 和 **Python** 的实验性音乐游戏demo。本项目尝试利用音频处理算法实现谱面的自动生成与同步。
 
 目前项目处于初级开发阶段，主要用于验证 **Librosa** 音频分析与 **Unity** 游戏逻辑结合的可行性。
 
