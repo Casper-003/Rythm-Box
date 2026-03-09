@@ -6,10 +6,10 @@
 
 ---
 
-## 项目概览
+## 概览
 
 本项目由两部分组成：
-1. **Python Server**：基于 Flask 框架，使用 Librosa 库对音乐进行 BPM 检测和重音提取。
+1. **Python Server**：使用 Librosa 库对音乐进行 BPM 检测和重音提取。
 2. **Unity Client**：负责音符生成、玩家输入判定及视觉呈现。
 
 ### 已实现功能
@@ -21,12 +21,12 @@
 
 ## 运行环境与依赖
 
-### Python 端
+### Python
 * **Python 3.10+**
 * 依赖库：`librosa`, `flask`, `mutagen`, `numpy`, `soundfile`
 * 建议安装方式：`pip install -r requirements.txt`
 
-### Unity 端
+### Unity
 * **Unity 6 (6000.3.6f1)** 或更高版本。
 * 硬件参考：本项目在基础轻薄本（如 i3-1005G1）设备上通过了初步运行测试。
 
@@ -63,7 +63,7 @@ Rythm-Box/
 
 ---
 
-## 局限性与已知问题
+## 已知问题
 * **分析精度**：自适应算法在复杂多变的曲风下可能表现不佳，生成的谱面仅具参考意义。
 * **延迟处理**：目前尚未建立完善的音频延迟补偿机制，不同设备的同步表现可能存在差异。
 * **操作方式**：目前默认支持控制器或键盘 `W` 和 `向下方向键`。
@@ -74,10 +74,5 @@ Rythm-Box/
 ![界面](https://raw.githubusercontent.com/Casper-003/Rythm-Box/refs/heads/main/img/interface.png)
 
 ---
-## 关于作者
-* **GitHub**: [Casper-003](https://github.com/Casper-003)
+## 反馈
 * **Email**: casper-003@outlook.com
----
-
-## 许可说明
-本项目采用 **MIT License** 开源。仅供学习与交流使用。
